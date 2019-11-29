@@ -238,10 +238,46 @@ A
 
 """
 
+
+#pyramid patterns
+
+"""
+
 n= int(input("number of rows:"))
 for i in range(n+1):
         
         for j in range(n-i):
-                print(chr(65+(n-j-1)),end =' ')
+                print(chr(65+(n-i-1)),end =' ')
+        print()
+        for k in range(n-j):
+                print(" ", end="")
+
+
+
+number of rows:6
+F F F F F F 
+ E E E E E 
+  D D D D 
+   C C C 
+    B B 
+     A 
+"""
+"""
+n= int(input("number of rows:"))
+for i in range(n):
+        
+        for j in range(n-i):
+                print(" ",end ='')
+        for k in range(n-j):
+                print(chr(65+i),end =' ')
         print()
 
+
+        number of rows:6
+      A 
+     B B 
+    C C C 
+   D D D D 
+  E E E E E 
+ F F F F F F
+ """
