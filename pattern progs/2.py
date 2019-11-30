@@ -139,3 +139,109 @@ number of rows:5
     1 
 
 """
+
+"""
+n= int(input("number of rows:"))
+for i in range(n+1):
+        
+        for j in range(n-i+1):
+            
+            print(" ",end ='')
+            
+        for k in range(n-j):
+            if (i%2!=0):
+                print(i,end =' ')
+            
+        print()
+
+
+number of rows:6
+       
+      1 
+     
+    3 3 3 
+   
+  5 5 5 5 5
+
+  """
+
+"""
+
+n= int(input("number of rows:"))
+for i in range(n+1):
+        
+        for j in range(n-i+1):
+            
+            print(" ",end ='')
+            
+        for k in range(n-j):
+            if (i%2!=0):
+                print(chr(65+i-1),end =' ')
+            
+        print()
+
+number of rows:6
+       
+      A 
+     
+    C C C 
+   
+  E E E E E 
+ """
+"""
+n= int(input("number of rows:"))
+for i in range(n+1):
+        
+        for j in range(n-i+1):
+                print(" ",end ='')
+        for k in range(n-j):
+                print(j,end =' ')
+        print()
+
+
+number of rows:5
+      
+     4 
+    3 3 
+   2 2 2 
+  1 1 1 1 
+ 0 0 0 0 0
+ """
+
+"""
+import keyword
+print(keyword.kwlist)
+"""
+"""
+n = int(input("enter number of rowa:"))
+for a in range(n):
+        
+        for b in range(n-a):
+                print("", end=" ")
+        
+        for c in range(1,n-b):
+                
+                print(c+a-1,end =' ')
+        
+        print()
+    
+enter number of rowa:6
+      
+     1 
+    2 3 
+   3 4 5 
+  4 5 6 7 
+ 5 6 7 8 9
+ """
+
+n = int(input("enter number of rowa:"))
+for a in range(n):
+        
+        for b in range(n-a):
+                print("", end=" ")
+        
+        for c in range(1,n-b):
+                
+                print(c+a-1,end =' ')
+        
+        print()
