@@ -232,7 +232,9 @@ enter number of rowa:6
    3 4 5 
   4 5 6 7 
  5 6 7 8 9
+
  """
+"""
 
 n = int(input("enter number of rowa:"))
 for a in range(n):
@@ -241,7 +243,56 @@ for a in range(n):
                 print("", end=" ")
         
         for c in range(1,n-b):
-                
-                print(c+a-1,end =' ')
+                        
+                print(c+b-1,end =' ')
         
         print()
+
+
+enter number of rowa:6
+      
+     4 
+    3 4 
+   2 3 4 
+  1 2 3 4 
+ 0 1 2 3 4         
+
+
+"""
+"""
+n= int(input("number of rows:"))
+for i in range(n):
+        
+        for j in range(n-i):
+                print(" ", end=" ")
+        print()
+        for k in range(n-j):
+                print("*",end =' ')
+        
+for i in range(n):
+        
+        for j in range(n-j):
+                print(' ',end ='')
+        print()
+        for k in range(n-i):
+                print("*", end=" ")
+        
+
+
+number of rows:6
+            
+*           
+* *         
+* * *       
+* * * *     
+* * * * *   
+* * * * * *       
+* * * * * *  
+* * * * *       
+* * * *  
+* * *       
+* *  
+* 
+
+
+"""
