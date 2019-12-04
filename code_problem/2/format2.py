@@ -22,6 +22,4 @@ a= inp.split() #split string into list of each word as one individual object of 
 
 print("*".join(a)) # convert list into string with * in it
 
-print(inp.replace("","*")) # this will add * after every charecter value
 
-# print(inp.replace("","*")) #if nothing is given thn it will add * after every character.
