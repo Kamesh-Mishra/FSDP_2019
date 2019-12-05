@@ -3,9 +3,7 @@
 Name: 
         
 Filename:
-
 Problem Statement:
-
 Data:
     Not required
 Extension:
@@ -23,7 +21,6 @@ Sample Output:
 
 
 """
-
 Code Challenge
   Name: 
     Name Printing in English
@@ -40,12 +37,10 @@ Code Challenge
   Output:
     "Sylvester"
     "Fernandes"
-
 """
 
 
 """
-
 Code Challenge
   Name: 
     Temperature of City
@@ -59,7 +54,6 @@ Code Challenge
      Take input from keyboard
   Output:
     26° C
-
 """
 
 
@@ -85,7 +79,6 @@ Code Challenge
 
 
 """
-
 Code Challenge
   Name: 
     Name Printing in Hindi
@@ -100,7 +93,6 @@ Code Challenge
     No input required
   Output:
         सिल्वेस्टर , फर्नांडीस
-
 """
 
 
@@ -129,7 +121,6 @@ Code Challenge
     * * * * * * * *
      * * * * * * * *
     * * * * * * * *
-
 """
 
 """
@@ -183,7 +174,6 @@ Code Challenge
     The string should be printed using a single print statement only and 
     the indexes shouldn't be counted manually.
   Input:
-
     This is a multi line string. This code challenge is to
     test your understanding about strings.
     You need to print some part of this string.
