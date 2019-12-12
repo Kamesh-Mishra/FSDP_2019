@@ -25,7 +25,10 @@ Sample Output:
 list1 = [1,3,6,78,35,55]
 list2 = [12,24,35,24,88,120,155]
 
-list3 = list1+list2
-set_list3 = set(list3)
-list_list3 = list(set_list3)
-print(list_list3)
+
+set1 = set(list1)
+set2 = set(list2)
+
+set3 = set1.intersection(set2)
+list3 = list(set3)
+print(list3)
