@@ -115,6 +115,30 @@ print(list1[inp-1])
 
 
 
+'''Hands On'''
+# Given two lists sorted in increasing order, create and return a merged
+# list of all the elements in sorted order. You may modify the passed in lists.
+# Ideally, the solution should work in "linear" time, making a single
+# pass of both lists.
+
+list1 = ['aa', 'xx', 'zz'] #['aa', 'xx']         ['aa', 'aa']
+list2 = ['bb', 'cc']       #['bb', 'cc', 'zz']   ['aa', 'bb', 'bb']
+
+
+
+list2.extend(list1)
+list2.sort()
+print(list2)
+
+
+
+
+
+
+
+
+
+
 
 
 
