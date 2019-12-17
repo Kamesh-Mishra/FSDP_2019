@@ -136,7 +136,19 @@ print(list2)
 
 
 
+'''Hands On'''
+# Make a function days_in_month to return the number of days in a specific month of a year
 
+
+inp = input("Enter month: ")
+def days_in_month():
+    
+    
+    list1 =["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"] 
+    list2 =[31,29,31,30,31,30,31,31,30,31,30,31]
+    if inp in list1:
+        print(list2[list1.index(inp)])
+days_in_month()
 
 
 
