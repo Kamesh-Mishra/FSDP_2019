@@ -36,6 +36,10 @@ Hint 2
     Step 4: Cleanup the code in general
 """
 
+
+
+
+
 #   Make a list to hold onto our items.
 shopping_list = []
 def addd(x):
@@ -69,4 +73,6 @@ while True:
 print("Here’s your list")
 for item in shopping_list:
     print ( item )
-    
+
+
+
