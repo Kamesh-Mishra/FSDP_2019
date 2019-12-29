@@ -22,6 +22,10 @@ Rewrite the above code using map and lambda.
 
 
 """
+
+
+#[{names[i] : random.choice(code_names)} for i in range(len(names))]
+
 #map and Reduce func
 
 import random
