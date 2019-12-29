@@ -22,12 +22,14 @@ Rewrite the above code using map and lambda.
 
 
 """
-
+#map and Reduce func
 
 import random
 
 names = ['Mary', 'Isla', 'Sam']
 code_names = ['Mr. Pink', 'Mr. Orange', 'Mr. Blonde']
 
-[{names[i] : random.choice(code_names)} for i in range(len(names))]
+list1 = list(map(lambda x: x+'  ->  '+random.choice(code_names),names))
 
+for i in list1:
+    print(i)
