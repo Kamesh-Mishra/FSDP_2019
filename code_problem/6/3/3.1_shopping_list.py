@@ -1,16 +1,12 @@
 
 """
-
 Challenge 3
     User can enter SHOW or Show or show, 
     similar for DONE and HELP, but the program should do the required job
-
     Show the item in the list serially starting from 1
-
     Let us accept items using a comma separated string
         
     Also there should be a functionality to add an item at a specific index
-
     There should be a functionality to remove items from the list at a specific index using REMOVE
     
     Do all the exception handling for all the extreme use cases 
@@ -57,3 +53,12 @@ while True:
 print("Here’s your list")
 for item in shopping_list:
     print ( item )
+
+
+
+
+
+
+
+
+
