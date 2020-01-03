@@ -13,6 +13,8 @@ Extension
     Make an enumerated variable type to store choices.
 """
 
+
+
 while True:
     inp = input("Enter input: ")
     import random
