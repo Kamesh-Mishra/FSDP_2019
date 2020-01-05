@@ -31,6 +31,7 @@ for i in range(1,51):
     
 
 #second method
+        
 '''
 for i in range(1,51):
     
