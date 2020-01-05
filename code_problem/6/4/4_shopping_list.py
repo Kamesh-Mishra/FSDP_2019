@@ -10,7 +10,6 @@ list1=input('enter comma separated items: ').split(',')
 dict1={}
 for i in range(len(list1)):
     dict1[i+1]=list1[i]
-# dict1=dict1.fromkeys(list1,0)
 
 while True:
     print('''
@@ -39,12 +38,6 @@ while True:
                     #print(temp2)
                     dict1[i]=temp1
                     temp1=temp2
-                    
-                         
-#             n=len(dict1)+1
-#             
-#             dict1[pos]=name
-#             dict1[n]=temp
         else:
             dict1[int(pos)]=name
     elif choice.lower()=='remove' :
