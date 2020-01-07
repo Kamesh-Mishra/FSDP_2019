@@ -26,7 +26,8 @@ Sample Input:
     Not Available
 Sample Output:
     Not Available
-""" 
+"""
+
 import random
 list1 = [1,2,3,4,5,6,7,8,9,10,11,12,13]
 k = random.choice(list1)
