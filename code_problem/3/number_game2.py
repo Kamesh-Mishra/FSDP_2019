@@ -19,11 +19,6 @@ Challenge 1
 #Challenge 2
 #   Print the secret number and guess number when Player loses using format function 
 
-
-
-
-
-
 import random
 
 a = random.randrange(1,10)
