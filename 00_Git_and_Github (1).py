@@ -13,7 +13,7 @@ GIT Commands
 # git clone https://github.com/Kamesh-Mishra/FSDP_2019.git
 # Change directory to FSDP_2019
 # create a test.py file on desktop/FSDP_2019
-# git config user.email "kamesh.mishra@gmail.com"
+# git config user.email "kamesh.mishra20@gmail.com"
 # git config user.name "Kamesh-Mishra"
 
 
